@@ -21,9 +21,9 @@ Bienvenidos a **Gastronomía para Niños**, una aplicación web educativa y dive
 ## Capturas de Pantalla
 
 <div align="center">
-  <img src="./assets/image/home1.png" alt="Captura de Pantalla 1" width="300">
-  <img src="./assets/image/home2.png" alt="Captura de Pantalla 2" width="300">
-  <img src="./assets/image/home3.png" alt="Captura de Pantalla 3" width="300">
+  <img src="src/assets/image/home1.png" alt="Captura de Pantalla 1" width="300">
+  <img src="src/assets/image/home2.png" alt="Captura de Pantalla 2" width="300">
+  <img src="src/assets/image/home3.png" alt="Captura de Pantalla 3" width="300">
 </div>
 
 <!-- Cómo instalar y ejecutar tu proyecto -->
