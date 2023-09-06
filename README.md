@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🍔 DeliciaExplorerKids🍴👩‍🚀</h1>
-  <img src="https://example.com/tu-imagen-de-github.jpg" alt="Gastronomía para Niños">
+  <img src="./assets/image/barbie.png" alt="Gastronomía para Niños">
 </div>
 
 <!-- Descripción de alto nivel de tu proyecto -->
@@ -21,8 +21,9 @@ Bienvenidos a **Gastronomía para Niños**, una aplicación web educativa y dive
 ## Capturas de Pantalla
 
 <div align="center">
-  <img src="https://example.com/captura-1.png" alt="Captura de Pantalla 1" width="300">
-  <img src="https://example.com/captura-2.png" alt="Captura de Pantalla 2" width="300">
+  <img src="./assets/image/home1.png" alt="Captura de Pantalla 1" width="300">
+  <img src="./assets/image/home2.png" alt="Captura de Pantalla 2" width="300">
+  <img src="./assets/image/home3.png" alt="Captura de Pantalla 3" width="300">
 </div>
 
 <!-- Cómo instalar y ejecutar tu proyecto -->
