@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🍔 DeliciaExplorerKids🍴👩‍🚀</h1>
-  <img src="src/assets/image/barbie.png" alt="Gastronomía para Niños">
+  <img src="src/assets/image/barbie.png" alt="Gastronomía para Niños"width="300">
 </div>
 
 <!-- Descripción de alto nivel de tu proyecto -->
