@@ -1,0 +1,13 @@
+<div class="eat-page">
+  <h2 class="add-eat-form">Algunas comidas populares en países importantes.</h2>
+  <div class="eats-grid">
+    <div *ngFor="let eat of eats" class="eat-card">
+      <div class="eat-info">
+        <img [src]="eat.photo" alt="foto" class="eat-photo">
+        <h2>{{ eat.name }}</h2>
+        <p class="eat-country">{{ eat.country }}</p>
+        <p class="eat-history">{{ eat.history }}</p>
+      </div>
+    </div>
+  </div>
+</div>

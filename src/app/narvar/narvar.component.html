@@ -1,0 +1,22 @@
+<div>
+  <h2>¿Cuál es tu comida favorita? 🤔</h2>
+  <p *ngIf="eats.length === 0">Que tal una pizza hecha en Marte 👀👽🖐️ deja volar tu imaginación y ponle un nombre diferente a tu comida favorita.</p>
+  <input type="text" required [(ngModel)]="newEat.name" placeholder="Nombre">
+  <input type="text" required [(ngModel)]="newEat.country" placeholder="País">
+  <input type="text" required [(ngModel)]="newEat.history" placeholder="Historia">
+  <input type="text" required [(ngModel)]="newEat.photo" placeholder="URL de la foto">
+  <button type="button" (click)="agregarEat()">Agregar</button>
+</div>
+
+<div>
+  <ul>
+    <li *ngFor="let eat of eats; let i = index">
+      {{ i + 1 }}. {{ eat.name }}
+      <img [src]="eat.photo" alt="foto">
+      <h2>{{ eat.name }}</h2>
+      <p>{{ eat.country }}</p>
+      <p>{{ eat.history }}</p>
+      <button type="button" (click)="eliminarEat(i)">Eliminar</button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,47 @@
+/* Estilo para el contenedor principal */
+div {
+  text-align: center;
+  background-color: #bfe6b7; /* Cambia el color de fondo según tu preferencia */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Estilo para el título */
+h1 {
+  font-size: 24px;
+  color: #3c229a; /* Cambia el color del texto según tu preferencia */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para la lista de enlaces */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para los elementos de la lista */
+li {
+  margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces */
+a {
+  text-decoration: none;
+  color: #3366cc; /* Cambia el color del enlace según tu preferencia */
+  font-weight: bold;
+  display: block;
+}
+
+/* Estilo para las imágenes */
+img {
+  max-width: 100px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+  margin: 0 auto 10px; /* Centra las imágenes y agrega espacio en la parte inferior */
+  display: block;
+}
+
+/* Estilo para los enlaces al pasar el mouse */
+a:hover {
+  color: #ff9900; /* Cambia el color al pasar el mouse sobre el enlace */
+}
